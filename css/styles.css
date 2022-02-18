@@ -1,0 +1,196 @@
+:root {
+  /* Основные шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Основные цвета */
+  --primery-text-color: #757575;
+  --primery-white-color: #ffffff;
+  --primery-title-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+}
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primery-text-color);
+  font-family: var(--main-font);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* Seite nav */
+.header-logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.header-logo-first-part {
+  color: var(--accent-color);
+}
+.header-logo-second-part {
+  color: var(--primery-title-color);
+}
+.navi-item-link {
+  color: var(--primery-title-color);
+  font-family: var(--main-font);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navi-item-link:hover,
+.navi-item-link:focus {
+  color: var(--accent-color);
+}
+.navi-contact-mail,
+.navi-contact-tel {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navi-contact-mail:hover,
+.navi-contact-mail:focus,
+.navi-contact-tel:hover,
+.navi-contact-tel:focus {
+  color: var(--accent-color);
+}
+.navi-list .navi-item-link.current {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--secondary-bg-color);
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--primery-white-color);
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+/* Hang */
+.hang-subtitle {
+  color: var(--primery-title-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.hang-item-text {
+  font-weight: 400;
+  line-height: 1.71;
+}
+/* Product */
+.product-title {
+  color: var(--primery-title-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Our team */
+.team-title {
+  color: var(--primery-title-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
+.teammate-name {
+  color: var(--primery-title-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+}
+.teammate-major {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Page */
+.page-filters-btn {
+  background-color: var(--third-bg-color);
+  color: var(--primery-title-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+}
+.page-filters-btn:hover,
+.page-filters-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+.page-item-link {
+  text-decoration: none;
+}
+.page-subtitle {
+  color: var(--primery-title-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.page-text {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.89;
+}
+/* Footer */
+.footer {
+  background-color: var(--secondary-bg-color);
+  color: var(--primery-white-color);
+}
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.footer-logo-first-part {
+  color: var(--accent-color);
+}
+.footer-logo-second-part {
+  color: var(--primery-white-color);
+}
+.footer-contacts {
+  font-style: normal;
+}
+.footer-address {
+  color: var(--primery-white-color);
+  line-height: 24px;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
